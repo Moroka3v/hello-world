@@ -1,0 +1,132 @@
+body {
+    background-color: bisque;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    background-image: url("/img/background.png") ;
+    background-color: #cccccc;
+    height: 100%;
+    
+}
+nav {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.2px;
+    width: 900px;
+}
+header {
+    background-image: url(/img/bg2.gif);
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    /* box-shadow: 2px 3px 3px rgba(85, 60, 60, 0.3); */
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navigation {
+    background-image: url(/img/bg3.jpg)
+}
+.lsr {
+    list-style: none;
+    text-decoration: none;
+}
+.menu { 
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* .mh {
+} */
+/* .welcome1 {
+} */
+/* .mh {
+     border: solid 2px rgba(207, 207, 207, 0.9);
+} */
+.mh h1 {
+    /* display: flex; */
+    text-align: center;
+    color: aliceblue;
+    margin: auto;
+    /* padding-top: 12px; */
+    font-weight: 900;
+    text-shadow: 0px 0px 7px red;
+}
+.menu-buttons {
+    border: #000 solid 1px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-family: Arial;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+.accent1 {
+    color: crimson
+}
+.menu-buttons:hover {
+    color: brown;
+}
+.loginform {
+    margin: 5px;
+}
+.passform {
+    margin: 5px;
+    border: none;
+}
+.forma {
+    border: solid 1.5px;
+    width: 190px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    /* margin-right: auto; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 100px; */
+    border-radius: 6px;
+    /* margin-left: 890px; */
+    /* margin-top: 150px; */
+    /* text-align: justify; */
+    background-color: rgba(207, 207, 207, 0.9);
+    box-shadow: rgba(0, 0, 0, 1);
+    
+}   
+.btn {
+    display: block;
+    /* position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid 1px; */
+    background-color: cornflowerblue;
+    border-radius: 20px;
+} 
+.btn img {
+    width: 20px;
+}
+.lock {
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loginform input {
+    background-color: rgba(255, 255, 255, 1)
+}
+.mainpage {
+    background-color: rgba(207, 207, 207, 0.9);
+    height: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    /* border: solid 2px rgba(207, 207, 207, 0.9); */
+}
+.menulog {
+    display: flex;
+}
+.title {
+    text-align: center;
+    font-weight: 700;
+}
+/* .mpdiv {
+    /* border: solid 2px rgba(207, 207, 207, 0.9); */
+} */
